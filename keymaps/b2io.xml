@@ -20,6 +20,12 @@
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control F12" />
   </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="control alt W" second-keystroke="H" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="control alt W" second-keystroke="V" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt ENTER" />
   </action>
