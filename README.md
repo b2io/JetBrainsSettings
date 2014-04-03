@@ -5,5 +5,5 @@ A versionable collection of settings for JetBrains IDE that reflects Base Two's 
 
 Build
 ------------
-* jar cvf settings.jar /JetBrainsSettings
+* jar cvf settings.jar ./
 * in a JetBrains IDE, File > Import Settings    
