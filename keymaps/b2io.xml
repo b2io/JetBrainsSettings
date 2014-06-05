@@ -17,8 +17,12 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="control O" />
   </action>
+  <action id="Images.ShowThumbnails" />
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control F12" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift control T" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="control alt W" second-keystroke="H" />
