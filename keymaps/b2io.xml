@@ -17,6 +17,11 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="control O" />
   </action>
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="shift alt F7" />
+    <keyboard-shortcut first-keystroke="shift alt F11" />
+  </action>
+  <action id="ForceStepOver" />
   <action id="Images.ShowThumbnails" />
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control F12" />
@@ -24,11 +29,26 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift control T" />
   </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="F9" />
+    <keyboard-shortcut first-keystroke="F8" />
+  </action>
+  <action id="ShowBookmarks" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="control alt W" second-keystroke="H" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="control alt W" second-keystroke="V" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="F7" />
+    <keyboard-shortcut first-keystroke="F11" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift F11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="F10" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt ENTER" />
@@ -45,5 +65,6 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
+  <action id="ToggleBookmark" />
 </keymap>
 
