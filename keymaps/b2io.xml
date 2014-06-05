@@ -29,6 +29,10 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift control T" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift control N" />
+    <keyboard-shortcut first-keystroke="control COMMA" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="F9" />
     <keyboard-shortcut first-keystroke="F8" />
