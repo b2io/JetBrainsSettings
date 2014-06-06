@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="b2io" parent="$default">
-  <action id="$Redo">
-    <keyboard-shortcut first-keystroke="shift control Z" />
-    <keyboard-shortcut first-keystroke="shift alt BACK_SPACE" />
-    <keyboard-shortcut first-keystroke="control Y" />
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt LEFT" />
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift control W" />
@@ -17,38 +17,46 @@
   <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="control L" />
   </action>
-  <action id="Editor Redo">
-    <keyboard-shortcut first-keystroke="control Y" />
-  </action>
-  <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="control L" />
-  </action>
-  <action id="FindNext">
-    <keyboard-shortcut first-keystroke="F3" />
-  </action>
   <action id="Console.TableResult.FiltersAndOrdering">
     <keyboard-shortcut first-keystroke="control O" />
+  </action>
+  <action id="Console.TableResult.NextPage" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="control L" />
+    <keyboard-shortcut first-keystroke="control Y" />
   </action>
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="control O" />
   </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" />
+  </action>
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="shift alt F7" />
     <keyboard-shortcut first-keystroke="shift alt F11" />
   </action>
   <action id="ForceStepOver" />
-  <action id="Images.ShowThumbnails" />
-  <action id="OverrideMethods">
-    <keyboard-shortcut first-keystroke="control F12" />
-  </action>
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift control T" />
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift control N" />
     <keyboard-shortcut first-keystroke="control COMMA" />
+  </action>
+  <action id="Images.ShowThumbnails" />
+  <action id="NextOccurence" />
+  <action id="NextTab" />
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="control F12" />
+  </action>
+  <action id="PreviousTab" />
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift control T" />
   </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="F9" />
@@ -57,9 +65,11 @@
   <action id="ShowBookmarks" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="control alt W" second-keystroke="H" />
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="control alt W" second-keystroke="V" />
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="F7" />
